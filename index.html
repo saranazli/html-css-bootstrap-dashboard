@@ -17,17 +17,17 @@
 <body>
 
   <header>
-    <section class="d-flex">
+    <section class="head_nav d-flex aligne-items-center">
       <div class="sb_logo">
-        <img class="d-lg-none" src="./img/mobile-logo.png" alt="logo-mob">
-        <img class="logo_desk" src="./img/logo.svg" alt="logo-desk">
+        <img class="logo_mob d-xxl-none" src="./img/mobile-logo.png" alt="logo-mob">
+        <img class="logo_desk d-none d-xxl-block p-1" src="./img/logo.svg" alt="logo-desk">
       </div>
   
-      <div class="sb_search px-4">
-        <input type="text" class="form-controls sb_search" placeholder="Search">
+      <div class="sb_search px-4 py-3 d-flex">
+        <input type="text" class="form-controls sb_search in" placeholder="Search">
       </div>
   
-      <div class="fa_btn">
+      <div class="fa_btn d-flex justify-content-around">
         <i class="fa-solid fa-list-ul"></i>
         <i class="fa-solid fa-list-ul"></i>
         <i class="fa-solid fa-list-ul"></i>
@@ -36,11 +36,47 @@
     </section>
   </header>
 
-  <main>
+  <main class="d-flex">
 
+    <!-- side bar  -->
     <section id="side_bar">
 
     </section>
+    
+    <!-- dash  -->
+    <section id="dash" class="w-100">
+
+      <div id="plane_blaze">
+
+      </div>
+
+      <div class="components_sb d-flex flex-wrap">
+
+        <div class="my_col">
+          <div class="next_classes m-4">
+
+          </div>
+    
+          <div  class="faq m-4">
+    
+          </div>
+        </div>
+
+        <div class="my_col">
+          <div  class="to_do m-4">
+  
+          </div>
+          <div  class="utenti_attivi m-4">
+    
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    
+
   </main>
   
 </body>
